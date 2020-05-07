@@ -11,7 +11,7 @@ app.appendChild(container);
 
 var request = new XMLHttpRequest();
 request.withCredentials = true;
-request.open('GET', 'https://x9lx3yf7sr:h3yas5ptyy@newsobotics-4731548659.us-east-1.bonsaisearch.net:443/news/_search?q=Top%20Stories&from=0&size=100', true);
+request.open('GET', 'https://x9lx3yf7sr:h3yas5ptyy@newsobotics-4731548659.us-east-1.bonsaisearch.net:443/news/_search?q="Top%20Stories"&from=0&size=100', true);
 request.onload = function () {
 
   // Begin accessing JSON data here
