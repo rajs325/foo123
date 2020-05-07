@@ -1,0 +1,1319 @@
+{
+   "took":11,
+   "timed_out":false,
+   "_shards":{
+      "total":3,
+      "successful":3,
+      "skipped":0,
+      "failed":0
+   },
+   "hits":{
+      "total":{
+         "value":336,
+         "relation":"eq"
+      },
+      "max_score":9.30663,
+      "hits":[
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"qmx4snEBomK58DD67Wc2",
+            "_score":9.30663,
+            "_source":{
+               "category":"NCB",
+               "source":"NYTIMES",
+               "title":"UConn? Worried? Not as Long as Auriemma Is in Charge",
+               "link":"https://www.nytimes.com/2020/03/10/sports/ncaabasketball/uconn-womens-basketball.html",
+               "mediaURL":"https://static01.nyt.com/images/2020/03/10/sports/10uconn-top/10uconn-top-moth.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"aCCFsnEBDTo7aF06yi7y",
+            "_score":8.709614,
+            "_source":{
+               "category":"Science & Environment",
+               "source":"BBC",
+               "title":"Launching the Hubble Space Telescope: 'Our window into the Universe'",
+               "link":"https://www.bbc.co.uk/news/stories-51928973",
+               "mediaURL":"null"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"fSBxsnEBDTo7aF06wyYD",
+            "_score":8.451682,
+            "_source":{
+               "category":"Top Stories",
+               "source":"BBC",
+               "title":"Coronavirus: Should I worry about my lockdown eating?",
+               "link":"https://www.bbc.co.uk/news/stories-52329529",
+               "mediaURL":"null"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"kSBxsnEBDTo7aF06wyYD",
+            "_score":8.451682,
+            "_source":{
+               "category":"Top Stories",
+               "source":"BBC",
+               "title":"The volunteer army helping self-isolating neighbours",
+               "link":"https://www.bbc.co.uk/news/stories-51979390",
+               "mediaURL":"null"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"9iB0snEBDTo7aF064ya9",
+            "_score":8.451682,
+            "_source":{
+               "category":"World",
+               "source":"BBC",
+               "title":"Coronavirus: Should I worry about my lockdown eating?",
+               "link":"https://www.bbc.co.uk/news/stories-52329529",
+               "mediaURL":"null"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"NCB3snEBDTo7aF06-yvN",
+            "_score":7.691178,
+            "_source":{
+               "category":"Travel",
+               "source":"CNN",
+               "title":"CEO Wynn Resorts Las Vegas calls for May reopening of hard-hit state",
+               "link":"http://rss.cnn.com/~r/rss/cnn_travel/~3/fzutEOYpyig/index.html",
+               "mediaURL":"https://cdn.cnn.com/cnnnext/dam/assets/190822002756-06-worlds-top-party-cities-super-169.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"TyB3snEBDTo7aF06-yzO",
+            "_score":7.5032997,
+            "_source":{
+               "category":"Education",
+               "source":"NYTIMES",
+               "title":"College Made Them Feel Equal. The Virus Exposed How Unequal Their Lives Are.",
+               "link":"https://www.nytimes.com/2020/04/04/us/politics/coronavirus-zoom-college-classes.html",
+               "mediaURL":"https://static01.nyt.com/images/2020/04/05/us/politics/05virus-campus/04campus-divide-top-moth.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"fCBxsnEBDTo7aF06wyYD",
+            "_score":6.8588867,
+            "_source":{
+               "category":"Top Stories",
+               "source":"BBC",
+               "title":"Coronavirus: The celebrity cash giveaway and other stories fact-checked",
+               "link":"https://www.bbc.co.uk/news/52398014",
+               "mediaURL":"null"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"3xB6snEBUm7XgbM2FOHQ",
+            "_score":6.6220965,
+            "_source":{
+               "category":"Books",
+               "source":"NYTIMES",
+               "title":"In a New Collection of Old Stories, Madeleine L’Engle Is Back",
+               "link":"https://www.nytimes.com/2020/04/21/books/review/the-moment-of-tenderness-madeleine-lengle.html",
+               "mediaURL":"null"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"WyB3snEBDTo7aF06Byl2",
+            "_score":6.5595098,
+            "_source":{
+               "category":"Health",
+               "source":"BBC",
+               "title":"Recovering from coronavirus: Three harrowing stories of surviving Covid-19",
+               "link":"https://www.bbc.co.uk/news/health-52124554",
+               "mediaURL":"null"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"UBB6snEBUm7XgbM2FODP",
+            "_score":6.496163,
+            "_source":{
+               "category":"Soccer",
+               "source":"NYTIMES",
+               "title":"Football Without Fans Is Nothing. Until It’s Everything.",
+               "link":"https://www.nytimes.com/2020/04/17/sports/soccer/empty-stadiums-rory-smith-newsletter.html",
+               "mediaURL":"https://static01.nyt.com/images/2020/04/19/sports/17rorynewsletter-top/merlin_170371335_c706e5c1-c682-4ac9-afc1-b5e3b38f1906-moth.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"GhB6snEBUm7XgbM2FODP",
+            "_score":6.3415556,
+            "_source":{
+               "category":"NCF",
+               "source":"NYTIMES",
+               "title":"C.T.E. and a Loved One’s Death Haunt a Clemson Player’s Family",
+               "link":"https://www.nytimes.com/2020/01/11/sports/nolan-turner-clemson.html",
+               "mediaURL":"https://static01.nyt.com/images/2020/01/12/sports/12cfp-turners-top/merlin_166949604_7143cd57-e48c-4af2-89f0-dbf6ebf39b0b-moth.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"5SB3snEBDTo7aF06-yvO",
+            "_score":6.255434,
+            "_source":{
+               "category":"Travel",
+               "source":"LATIMES",
+               "title":"Your favorite souvenirs: Readers share their wildest and wackiest travel keepsakes",
+               "link":"https://www.latimes.com/travel/story/2020-04-17/la-tr-travel-souvenirs-readers-weird-wonderful-stories",
+               "mediaURL":"https://ca-times.brightspotcdn.com/dims4/default/66e6e71/2147483647/strip/true/crop/3024x3024+0+0/resize/1500x1500!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Ffc%2F7c%2F5c400e3040518ef7dd29c7d31d67%2Ftrabantredo.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"rRB6snEBUm7XgbM2FODQ",
+            "_score":6.1943974,
+            "_source":{
+               "category":"Environment",
+               "source":"NYTIMES",
+               "title":"7 Travel Stories to Help You Celebrate the 50th Anniversary of Earth Day",
+               "link":"https://www.nytimes.com/2020/04/22/travel/earth-day-online.html",
+               "mediaURL":"https://static01.nyt.com/images/2018/10/28/travel/22travel-earthday-fiji/22travel-earthday-fiji-moth-v2.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"2SCFsnEBDTo7aF06yizy",
+            "_score":6.120639,
+            "_source":{
+               "category":"TV",
+               "source":"LATIMES",
+               "title":"George Stephanopoulos and Ali Wentworth have had wildly different COVID-19 stories",
+               "link":"https://www.latimes.com/entertainment-arts/tv/story/2020-04-15/coronavirus-george-stephanopoulos-ali-wenworth-jimmy-kimmel",
+               "mediaURL":"https://ca-times.brightspotcdn.com/dims4/default/0646577/2147483647/strip/true/crop/2002x1548+0+0/resize/1500x1160!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F38%2Fd1%2F4a68c4894108b0a4ae88c13b33a1%2Fvirus-outbreak-george-stephanopoulos-56264.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"mBCEsnEBUm7XgbM2xOLz",
+            "_score":6.0624986,
+            "_source":{
+               "category":"Movies",
+               "source":"LATIMES",
+               "title":"Review: Netflix's 'Tigertail' is an affecting look at a family's unspoken stories",
+               "link":"https://www.latimes.com/entertainment-arts/movies/story/2020-04-10/tigertail-alan-yang-netflix-review-tzi-ma",
+               "mediaURL":"https://ca-times.brightspotcdn.com/dims4/default/b03f9da/2147483647/strip/true/crop/1619x1080+0+0/resize/1500x1001!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F22%2Fb0%2F83e2d2a84748a13688b4f03373d9%2Ftigertail.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"uRB6snEBUm7XgbM2FOHQ",
+            "_score":5.922513,
+            "_source":{
+               "category":"Arts & Culture",
+               "source":"LATIMES",
+               "title":"Gayle King wants to hear your coronavirus stories for her new radio show",
+               "link":"https://www.latimes.com/entertainment-arts/story/2020-04-22/coronavirus-gayle-king-podcast-sirius-xm",
+               "mediaURL":"https://ca-times.brightspotcdn.com/dims4/default/ab4ccd9/2147483647/strip/true/crop/2048x1625+0+0/resize/1500x1190!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F20%2F50%2F94d9efaaa4b75baa07cc3d9fb33b%2Fla-et-st-gayle-king-20190312"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"EiCFsnEBDTo7aF06yi3y",
+            "_score":5.922513,
+            "_source":{
+               "category":"Style",
+               "source":"NYTIMES",
+               "title":"7 Travel Stories to Help You Celebrate the 50th Anniversary of Earth Day",
+               "link":"https://www.nytimes.com/2020/04/22/travel/earth-day-online.html",
+               "mediaURL":"https://static01.nyt.com/images/2018/10/28/travel/22travel-earthday-fiji/22travel-earthday-fiji-moth-v2.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"vWx1snEBomK58DD6wmRQ",
+            "_score":5.8658953,
+            "_source":{
+               "category":"U.S.",
+               "source":"DAILYMAIL",
+               "title":"Take a look at the business stories that got us talking this week",
+               "link":"https://www.dailymail.co.uk/ushome/strayermanagement/article-2983458/Take-look-business-stories-got-talking-week.html?ns_mchannel=rss&ns_campaign=1490&ito=1490",
+               "mediaURL":"https://i.dailymail.co.uk/i/pix/2015/03/06/263FD6D000000578-0-image-m-12_1425681468803.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"khB6snEBUm7XgbM2FODP",
+            "_score":5.8658953,
+            "_source":{
+               "category":"Science",
+               "source":"NYTIMES",
+               "title":"7 Travel Stories to Help You Celebrate the 50th Anniversary of Earth Day",
+               "link":"https://www.nytimes.com/2020/04/22/travel/earth-day-online.html",
+               "mediaURL":"https://static01.nyt.com/images/2018/10/28/travel/22travel-earthday-fiji/22travel-earthday-fiji-moth-v2.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"9iCJsnEBDTo7aF068zE3",
+            "_score":5.8658953,
+            "_source":{
+               "category":"Awards",
+               "source":"LATIMES",
+               "title":"How the Oscars' best-picture nominees used architecture to tell stories of inequity",
+               "link":"https://www.latimes.com/entertainment-arts/movies/story/2020-02-06/how-the-oscars-best-picture-nominees-used-architecture-to-tell-stories-of-inequity",
+               "mediaURL":"https://ca-times.brightspotcdn.com/dims4/default/67615d1/2147483647/strip/true/crop/1920x1080+0+0/resize/1500x844!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Fa4%2F67%2Fe4c380be43ef8fcf8c80edd9f186%2Fla-ca-park-home-parasite-250.JPG"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"ESB3snEBDTo7aF06-yvN",
+            "_score":5.7639065,
+            "_source":{
+               "category":"Entertainment",
+               "source":"FOXNEWS",
+               "title":"Top model Madison Headrick explains how she's staying positive during the coronavirus pandemic",
+               "link":"http://feeds.foxnews.com/~r/foxnews/entertainment/~3/zhkZ9bMmkBg/top-model-madison-headrick-quarantine-routine",
+               "mediaURL":"https://static.foxnews.com/foxnews.com/content/uploads/2020/04/Taylor-Hill_FilmMagic_Getty_1.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"EyB3snEBDTo7aF06-yvN",
+            "_score":5.7480392,
+            "_source":{
+               "category":"Entertainment",
+               "source":"FOXNEWS",
+               "title":"Elizabeth Hurley sizzles in bikini top and denim shorts during quarantine: 'Spring has sprung'",
+               "link":"http://feeds.foxnews.com/~r/foxnews/entertainment/~3/9a1HZj9nlwI/elizabeth-hurley-bikini-top-denim-shorts-quarantine",
+               "mediaURL":"https://static.foxnews.com/foxnews.com/content/uploads/2020/01/Elizabeth-Hurley1.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"DhB6snEBUm7XgbM2FODP",
+            "_score":5.6584163,
+            "_source":{
+               "category":"NCB",
+               "source":"ESPN",
+               "title":"NBA decisions with big impacts on top college conferences",
+               "link":"https://www.espn.com/mens-college-basketball/story/_/id/29079260/nba-decisions-biggest-impact-college-basketball-top-conferences",
+               "mediaURL":"null"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"lyCLsnEBDTo7aF06XTPK",
+            "_score":5.518534,
+            "_source":{
+               "category":"Asia",
+               "source":"CNBC",
+               "title":"New York City's top health official says confirmed coronavirus cases are 'tip of the iceberg'",
+               "link":"https://www.cnbc.com/2020/04/23/coronavirus-nycs-top-health-official-says-confirmed-cases-tip-of-the-iceberg.html",
+               "mediaURL":"null"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"kyBxsnEBDTo7aF06wyYD",
+            "_score":5.477938,
+            "_source":{
+               "category":"Top Stories",
+               "source":"BBC",
+               "title":"Coronavirus: Grandmas' top tips to get through lockdown",
+               "link":"https://www.bbc.co.uk/news/world-52376726",
+               "mediaURL":"null"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"ZSB3snEBDTo7aF06Byp2",
+            "_score":5.417011,
+            "_source":{
+               "category":"Entertainment",
+               "source":"BBC",
+               "title":"Book recommendations from today's top selling authors",
+               "link":"https://www.bbc.co.uk/news/entertainment-arts-52382235",
+               "mediaURL":"null"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"BSCLsnEBDTo7aF06XTTK",
+            "_score":5.3854003,
+            "_source":{
+               "category":"Economy",
+               "source":"CNBC",
+               "title":"Small business loans top $296 billion and could reach the program's limit by the end of Wednesday",
+               "link":"https://www.cnbc.com/2020/04/15/small-business-rescue-loans-top-296-billion-rapidly-nearing-the-programs-funding-limit.html",
+               "mediaURL":"null"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"DyB3snEBDTo7aF06Byl2",
+            "_score":5.325442,
+            "_source":{
+               "category":"Technology",
+               "source":"CNBC",
+               "title":"Amazon's top watchdog in Congress says its witness 'may have lied'",
+               "link":"https://www.cnbc.com/2020/04/23/amazons-top-watchdog-in-congress-says-its-witness-may-have-lied.html",
+               "mediaURL":"null"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"KRB6snEBUm7XgbM2FODP",
+            "_score":5.325442,
+            "_source":{
+               "category":"NCF",
+               "source":"ESPN",
+               "title":"Ranking college football's top 10 returning cornerbacks for 2020",
+               "link":"https://www.espn.com/college-football/insider/story/_/id/29087978/ranking-college-football-top-10-returning-cornerbacks-2020",
+               "mediaURL":"null"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"YRB6snEBUm7XgbM2FODP",
+            "_score":5.193776,
+            "_source":{
+               "category":"Soccer",
+               "source":"ESPN",
+               "title":"How Champions League playoffs could look across Europe's top leagues",
+               "link":"https://www.espn.com/soccer/uefa-champions-league/story/4088443/how-champions-league-playoffs-could-look-across-europes-top-leagues",
+               "mediaURL":"null"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"ayCJsnEBDTo7aF068zE3",
+            "_score":5.193776,
+            "_source":{
+               "category":"Orange County",
+               "source":"LATIMES",
+               "title":"Orange County reports 3 new coronavirus deaths as infections top 1,300",
+               "link":"https://www.latimes.com/california/story/2020-04-15/orange-county-reports-3-new-coronavirus-deaths-as-infections-top-1300",
+               "mediaURL":"https://ca-times.brightspotcdn.com/dims4/default/54b406a/2147483647/strip/true/crop/3000x2000+0+0/resize/1500x1000!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F2f%2Faa%2F3ed08a1b4e7385f3c7a64879da04%2Fla-photos-1staff-524532-me-salute-9-rcg.JPG"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"OyB3snEBDTo7aF06Byl2",
+            "_score":5.120804,
+            "_source":{
+               "category":"Health",
+               "source":"CNN",
+               "title":"You asked, we're answering: Your top coronavirus questions",
+               "link":"http://rss.cnn.com/~r/rss/cnn_health/~3/P3_0xBnrsI4/2TO9rWC",
+               "mediaURL":"https://cdn.cnn.com/cnnnext/dam/assets/200312161449-20200312-coronavirus-question-answer-interactive-super-169.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"cSCJsnEBDTo7aF068zE3",
+            "_score":5.0715184,
+            "_source":{
+               "category":"Orange County",
+               "source":"LATIMES",
+               "title":"Orange County coronavirus deaths grow to 17 as cases top 1,000",
+               "link":"https://www.latimes.com/california/story/2020-04-08/orange-county-coronavirus-deaths-grow-to-17-as-cases-top-1-000",
+               "mediaURL":"https://ca-times.brightspotcdn.com/dims4/default/e31d49b/2147483647/strip/true/crop/5100x3400+0+0/resize/1500x1000!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2Ff5%2Fe6%2F923b9bde492f96c236638225b355%2Fla-photos-1staff-514569-la-me-neighborhood-community-38-ajs.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"diCJsnEBDTo7aF068zE3",
+            "_score":5.0715184,
+            "_source":{
+               "category":"Orange County",
+               "source":"LATIMES",
+               "title":"Coronavirus infections near 900 in Orange County; 130 people hospitalized",
+               "link":"https://www.latimes.com/california/story/2020-04-06/coronavirus-infections-now-top-800-in-orange-county-hospitalizations-hit-new-high",
+               "mediaURL":"https://ca-times.brightspotcdn.com/dims4/default/2498f83/2147483647/strip/true/crop/5100x3400+0+0/resize/1500x1000!/quality/90/?url=https%3A%2F%2Fcalifornia-times-brightspot.s3.amazonaws.com%2F95%2Fda%2F92ab4a0a4c56a9616c76aa2aed4d%2Fla-photos-1staff-520161-oc-residents-protest-use-of-hotel-to-treat-homeless-with-coronavirus-17-ajs.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"QyBwsnEBDTo7aF06DCbr",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"CNN",
+               "title":"How the coronavirus pandemic has shaken the US military",
+               "link":"http://rss.cnn.com/~r/rss/cnn_topstories/~3/WVg8VZMz0JY/index.html",
+               "mediaURL":"https://cdn.cnn.com/cnnnext/dam/assets/200424185449-01-us-military-coronavirus-super-169.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"RCBwsnEBDTo7aF06DCbr",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"CNN",
+               "title":"Nearly three quarters of US senators call on Trump administration to help local news",
+               "link":"http://rss.cnn.com/~r/rss/cnn_topstories/~3/vN4yV8ubF0k/index.html",
+               "mediaURL":"https://cdn.cnn.com/cnnnext/dam/assets/200424190212-01-us-capitol-0422-restricted-super-169.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"SyBwsnEBDTo7aF06DCbr",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"CNN",
+               "title":"10 leaders who mattered most on coronavirus response this week",
+               "link":"http://rss.cnn.com/~r/rss/cnn_topstories/~3/G5hpiR3_wDg/index.html",
+               "mediaURL":"https://cdn.cnn.com/cnnnext/dam/assets/190506103219-brian-kemp-file-12132018-super-169.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"TSBwsnEBDTo7aF06DCbr",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"CNN",
+               "title":"Andy Cohen: I have valuable antibodies, but I couldn't donate my plasma",
+               "link":"http://rss.cnn.com/~r/rss/cnn_topstories/~3/bOD4NvKo7SU/andy-cohen-plasma-donation-intv-cooper-vpx.cnn",
+               "mediaURL":"https://cdn.cnn.com/cnnnext/dam/assets/200424221155-andy-cohen-ac360-04242020-super-169.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"TiBwsnEBDTo7aF06DCbr",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"CNN",
+               "title":"Jill Biden on possibility of Michelle Obama as husband's running mate",
+               "link":"http://rss.cnn.com/~r/rss/cnn_topstories/~3/rPAZiBJu7DQ/jill-biden-michelle-obama-joe-biden-vice-president-2020-election-newday-vpx.cnn",
+               "mediaURL":"https://cdn.cnn.com/cnnnext/dam/assets/200424082819-jill-biden-new-day-4-24-super-169.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"UCBwsnEBDTo7aF06DCbr",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"CNN",
+               "title":"We're in a golden age of TV re-runs. Soon they'll be the only thing on",
+               "link":"http://rss.cnn.com/~r/rss/cnn_topstories/~3/cHyHOJLD_-I/index.html",
+               "mediaURL":"https://cdn.cnn.com/cnnnext/dam/assets/200424113952-tv-reruns-split-restricted-super-169.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"VSBwsnEBDTo7aF06DCbr",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"CNN",
+               "title":"'Queer Eye' star: You can absolutely wait to have your hair done",
+               "link":"http://rss.cnn.com/~r/rss/cnn_topstories/~3/D5o4FSLKFIE/jonathan-van-ness-coronavirus-amanpour-bts-vpx.cnn",
+               "mediaURL":"https://cdn.cnn.com/cnnnext/dam/assets/200423185804-johnathan-van-ness-amanpour-super-169.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"XiBwsnEBDTo7aF06DCbr",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"CNN",
+               "title":"What flying economy class could look like after the virus",
+               "link":"http://rss.cnn.com/~r/rss/cnn_topstories/~3/mBbDVfyrgHk/index.html",
+               "mediaURL":"https://cdn.cnn.com/cnnnext/dam/assets/200423152818-coronavirus-airplane-seat-design---tease-image---janus-rear-view---aviointeriors-super-169.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"XyBwsnEBDTo7aF06DCbr",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"CNN",
+               "title":"Lysol maker: Please don't drink our cleaning products",
+               "link":"http://rss.cnn.com/~r/rss/cnn_topstories/~3/kd26lofavdo/index.html",
+               "mediaURL":"https://cdn.cnn.com/cnnnext/dam/assets/200424114735-01-lysol-products-file-super-169.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"YCBwsnEBDTo7aF06DCbr",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"CNN",
+               "title":"Abigail Disney on Disney furloughs: 'What the f---'?",
+               "link":"http://rss.cnn.com/~r/rss/cnn_topstories/~3/SfzrTBQREpM/index.html",
+               "mediaURL":"https://cdn.cnn.com/cnnnext/dam/assets/200422070625-01-abigail-disney-file-super-169.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"cCBxsnEBDTo7aF06wyYD",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"BBC",
+               "title":"Coronavirus: Belgium unveils plans to lift lockdown",
+               "link":"https://www.bbc.co.uk/news/world-europe-52421723",
+               "mediaURL":"null"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"cyBxsnEBDTo7aF06wyYD",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"BBC",
+               "title":"Lam Wing-kee: HK bookseller who defied China opens shop in Taiwan",
+               "link":"https://www.bbc.co.uk/news/world-asia-52425350",
+               "mediaURL":"null"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"dyBxsnEBDTo7aF06wyYD",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"BBC",
+               "title":"Coronavirus: Cerne Abbas Giant given face mask makeover",
+               "link":"https://www.bbc.co.uk/news/uk-england-dorset-52427165",
+               "mediaURL":"null"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"fiBxsnEBDTo7aF06wyYD",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"BBC",
+               "title":"Coronavirus: Why going without physical touch is so hard",
+               "link":"https://www.bbc.co.uk/news/uk-52279411",
+               "mediaURL":"null"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"gCBxsnEBDTo7aF06wyYD",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"BBC",
+               "title":"Nova Scotia shooting: 'They had no idea the hell they were going to face'",
+               "link":"https://www.bbc.co.uk/news/world-us-canada-52373798",
+               "mediaURL":"null"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"hCBxsnEBDTo7aF06wyYD",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"BBC",
+               "title":"Coronavirus and sport: Chelsea's first-team squad will not take pay cut",
+               "link":"https://www.bbc.co.uk/sport/football/52425899",
+               "mediaURL":"null"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"hiBxsnEBDTo7aF06wyYD",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"BBC",
+               "title":"#GoalsAtHome: Your best attempts at Didier Drogba's FA Cup screamer",
+               "link":"https://www.bbc.co.uk/sport/av/football/52417517",
+               "mediaURL":"null"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"jSBxsnEBDTo7aF06wyYD",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"BBC",
+               "title":"Coronavirus death rate: What are the chances of dying?",
+               "link":"https://www.bbc.co.uk/news/health-51674743",
+               "mediaURL":"null"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"kCBxsnEBDTo7aF06wyYD",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"BBC",
+               "title":"Coronavirus symptoms: What are they and how do I protect myself?",
+               "link":"https://www.bbc.co.uk/news/health-51048366",
+               "mediaURL":"null"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"lSBxsnEBDTo7aF06wyYD",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"BBC",
+               "title":"Eliud Kipchoge: The humble home life in rural Kenya behind remarkable athletic success",
+               "link":"https://www.bbc.co.uk/sport/athletics/52354320",
+               "mediaURL":"null"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"nSBxsnEBDTo7aF06wyYD",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"The Rolling Stones land their first ever Number One on iTunes with 'Living in a Ghost Town'",
+               "link":"https://www.dailymail.co.uk/news/article-8256265/The-Rolling-Stones-land-Number-One-iTunes-Living-Ghost-Town.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/25/12/27565010-0-image-m-33_1587815719315.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"niBxsnEBDTo7aF06wyYD",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"Cadbury spends more than £1million on a new logo - but can you spot the difference?",
+               "link":"https://www.dailymail.co.uk/news/article-8256157/Cadburys-spends-1million-new-logo-spot-difference.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/25/18/27643402-0-image-a-1_1587834311651.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"nyBxsnEBDTo7aF06wyYD",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"Russia is preparing for major increase in coronavirus cases",
+               "link":"https://www.dailymail.co.uk/news/article-8256797/Russia-preparing-major-increase-coronavirus-cases.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/25/17/27642702-0-image-a-15_1587833098744.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"oSBxsnEBDTo7aF06wyYD",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"Iran officials warn 'hasty re-openings' could trigger new wave of coronavirus",
+               "link":"https://www.dailymail.co.uk/news/article-8256821/Iran-officials-warn-hasty-openings-trigger-new-wave-coronavirus.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/25/17/27642838-0-image-a-10_1587833498837.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"fhB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"Millions of key workers face a rush to secure coronavirus test as applications re-open",
+               "link":"https://www.dailymail.co.uk/news/article-8256023/Millions-key-workers-face-rush-secure-coronavirus-test-applications-open.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/25/11/27634464-0-People_line_up_in_their_cars_at_a_drive_through_testing_centre_i-a-8_1587809152476.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"fxB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"Predator jailed for 16 years for raping mother-of-two as her children listened",
+               "link":"https://www.dailymail.co.uk/news/article-8255285/Predator-jailed-16-years-raping-mother-two-children-listened.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/24/23/27619936-0-image-m-40_1587765890814.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"hxB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"New clip emerges of Joe Biden assault accuser Tara Reade's mother phoning into Larry King in 1993",
+               "link":"https://www.dailymail.co.uk/news/article-8256367/New-clip-emerges-Joe-Biden-assault-accuser-Tara-Reades-mother-phoning-Larry-King-1993.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/25/15/27637394-0-image-a-4_1587824247579.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"iBB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"BBC News apologises after mistaking Brighton Pavilion for a mosque during a report on Ramadan",
+               "link":"https://www.dailymail.co.uk/news/article-8256557/BBC-News-apologises-mistaking-Brighton-Pavilion-mosque-report-Ramadan.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/25/15/27638850-0-image-a-14_1587824968068.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"jxB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"Prime Minister Boris Johnson 'briefed on plans to have Premier League football return within weeks'",
+               "link":"https://www.dailymail.co.uk/sport/football/article-8255287/Prime-Minister-Boris-Johnson-briefed-plans-Premier-League-football-return-weeks.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/24/23/27621014-0-image-a-143_1587765790203.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"kxB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"Terminally ill ex-CBBC star battling cystic fibrosis fears she won't live to see end of lockdown",
+               "link":"https://www.dailymail.co.uk/news/article-8256189/Terminally-ill-ex-CBBC-star-battling-cystic-fibrosis-fears-wont-live-end-lockdown.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/25/11/27635082-0-image-m-8_1587811637924.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"lBB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"No evidence recovered covid patients can't be re-infected World Health Organisation says",
+               "link":"https://www.dailymail.co.uk/news/article-8256249/No-evidence-recovered-covid-patients-infected-World-Health-Organisation-says.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/25/11/27634760-0-image-a-31_1587809766345.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"mBB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"Toddler unexpectedly dies after falling asleep while watching a film",
+               "link":"https://www.dailymail.co.uk/news/article-8256221/Toddler-unexpectedly-dies-falling-asleep-watching-film.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/25/11/27634664-0-image-m-10_1587809281523.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"nRB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"Is there any science behind two-metre social distancing rule…? Government adviser says not",
+               "link":"https://www.dailymail.co.uk/news/article-8256109/Social-distancing-two-metres-apart-based-figure-says-government-adviser.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/25/10/27633592-0-image-m-13_1587805527010.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"nhB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"Man, 60, is jailed for four months after weaponising his cough",
+               "link":"https://www.dailymail.co.uk/news/article-8256195/Man-60-jailed-four-months-weaponising-cough.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/25/10/27634038-0-image-m-46_1587807161078.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"oxB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"JOHN HUMPHRYS: Keeping grandparents away from their loved ones is cruel",
+               "link":"https://www.dailymail.co.uk/debate/article-8254951/JOHN-HUMPHRYS-Keeping-grandparents-away-loved-ones-cruel.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/24/20/27616322-0-image-a-13_1587756783776.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"phB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"Chancellor draws up plans to reopen non-essential businesses with social distancing within weeks",
+               "link":"https://www.dailymail.co.uk/news/article-8255645/Chancellor-draws-plans-reopen-non-essential-businesses-social-distancing-weeks.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/25/02/27626662-0-image-m-18_1587778434961.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"qhB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"Vogue editor Anna 'Nuclear' Wintour has fallen out with her right-hand man Andre Leon Talley...",
+               "link":"https://www.dailymail.co.uk/tvshowbiz/article-8255427/Vogue-editor-Anna-Nuclear-Wintour-fallen-right-hand-man-Andre-Leon-Talley.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/24/23/27622304-0-image-a-73_1587768665384.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"qxB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"SUE REID: Cancer victims forgotten, vital operations cancelled and ghost town A&Es",
+               "link":"https://www.dailymail.co.uk/news/article-8254931/SUE-REID-Cancer-victims-forgotten-vital-operations-cancelled-ghost-town-Es.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/24/20/27615828-0-image-a-35_1587757103613.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"rRB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"PICTURED: Man who died ingesting fish tank cleaner thinking it was malaria drug championed by Trump",
+               "link":"https://www.dailymail.co.uk/news/article-8255265/PICTURED-Man-died-ingesting-fish-tank-cleaner-thinking-malaria-drug-championed-Trump.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/24/23/27621248-0-image-a-10_1587767735256.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"rhB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"Mecca deserted during Ramadan as Muslims are forced to celebrate in isolation because of coronavirus",
+               "link":"https://www.dailymail.co.uk/news/article-8255347/Mecca-deserted-Ramadan-Muslims-forced-celebrate-isolation-coronavirus.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/24/23/27621876-0-image-a-22_1587768227911.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"shB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"Cops patrol the streets enforcing strict social-distancing rules on Anzac Day",
+               "link":"https://www.dailymail.co.uk/news/article-8255709/Cops-patrol-streets-enforcing-strict-social-distancing-rules-Anzac-Day.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/25/05/27629402-0-image-a-160_1587790493809.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"thB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"Dozens of oil tankers float off coast of Southern California as global lockdown sees demand plummet",
+               "link":"https://www.dailymail.co.uk/news/article-8255559/Dozens-oil-tankers-float-coast-Southern-California-global-lockdown-sees-demand-plummet.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/25/01/27624646-0-image-a-39_1587774732594.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"txB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"Donald Trump WALKS OUT of coronavirus briefing after his disinfectant disaster",
+               "link":"https://www.dailymail.co.uk/news/article-8255403/Donald-Trump-WALKS-coronavirus-briefing-disinfectant-disaster.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/25/00/27621904-0-image-m-44_1587769684986.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"uBB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"The Queen's life in lockdown: Her Majesty has been cloistered in her private apartments at Windsor",
+               "link":"https://www.dailymail.co.uk/news/article-8255523/The-Queens-life-lockdown-Majesty-cloistered-private-apartments-Windsor.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/25/00/27622612-0-image-m-72_1587771825813.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"uxB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"DR ALEX GEORGE: From Love Island to hell in my hospital",
+               "link":"https://www.dailymail.co.uk/news/article-8255067/DR-ALEX-GEORGE-Love-Island-hell-hospital.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/24/23/27621134-0-image-a-3_1587765953131.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"vBB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"Chinese medical team dispatched to North Korea to advise on Kim Jong-un's care ",
+               "link":"https://www.dailymail.co.uk/news/article-8255573/Chinese-medical-team-dispatched-North-Korea-advise-Kim-Jong-uns-care.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/25/01/27623358-0-image-a-23_1587773400988.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"vRB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"Kanye West officially becomes a billionaire according to Forbes report",
+               "link":"https://www.dailymail.co.uk/tvshowbiz/article-8255445/Kanye-West-officially-billionaire-according-forbes-report.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/25/00/27622596-0-image-m-268_1587769250867.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"wRB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"We reveal the deadly risks that could cost the ultimate price ",
+               "link":"https://www.dailymail.co.uk/news/article-8255391/We-reveal-deadly-risks-cost-ultimate-price.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/25/00/27623734-0-image-m-46_1587772573996.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"whB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"Thought your kids were a handful? Spare a thought for this isolated shepherdess",
+               "link":"https://www.dailymail.co.uk/news/article-8255643/Thought-kids-handful-Spare-thought-isolated-shepherdess.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/25/01/27624476-0-image-m-53_1587774520439.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"xhB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"RICHARD KAY: Oh Harry... how Diana would have despaired",
+               "link":"https://www.dailymail.co.uk/news/article-8255045/RICHARD-KAY-Oh-Harry-Diana-despaired.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/25/01/27625542-0-image-a-13_1587775201655.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"zBB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"Elon Musk reveals SpaceX will launch its Starlink internet service in just 6 MONTHS ",
+               "link":"https://www.dailymail.co.uk/sciencetech/article-8255199/Elon-Musk-reveals-SpaceX-launch-Starlink-internet-service-just-6-MONTHS.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/24/22/27620260-0-image-a-19_1587763992270.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"1BB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"BEL MOONEY: How can I leave my helpless son all on his own?",
+               "link":"https://www.dailymail.co.uk/femail/article-8254735/BEL-MOONEY-leave-helpless-son-own.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/24/18/27596800-0-image-m-52_1587749668716.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"1RB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"Hospitals treat one new stab victim every 90 minutes",
+               "link":"https://www.dailymail.co.uk/news/article-8254871/Hospitals-treat-one-new-stab-victim-90-minutes.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/24/20/27616066-0-image-m-2_1587756363708.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"1hB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"Colour paint technology cools buildings by reflecting the sun ",
+               "link":"https://www.dailymail.co.uk/sciencetech/article-8254793/Colour-paint-technology-cools-buildings-reflecting-sun.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/24/18/27613242-0-image-a-103_1587751096200.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"1xB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"DAILYMAIL",
+               "title":"Smart contact lens developed that allows diabetics to monitor their glucose levels",
+               "link":"https://www.dailymail.co.uk/sciencetech/article-8254323/Smart-contact-lens-developed-allows-diabetics-monitor-glucose-levels.html?ns_mchannel=rss&ito=1490&ns_campaign=1490",
+               "mediaURL":"https://i.dailymail.co.uk/1s/2020/04/24/17/27609910-0-image-a-21_1587745311381.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"2xB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"REUTERS",
+               "title":"Afraid of bringing coronavirus home? Experts have answers",
+               "link":"http://www.reuters.com/video/2020/04/24/afraid-of-bringing-coronavirus-home-expe?videoId=712194341&feedType=VideoRSS&feedName=TopNews&videoChannel=1",
+               "mediaURL":"https://vm.reuters.tv/b8853/bjxtwaxcpyr-1404k.mp4"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"3xB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"REUTERS",
+               "title":"Tearful Maxine Waters says sister dying 'at this moment'",
+               "link":"http://www.reuters.com/video/2020/04/23/tearful-maxine-waters-says-sister-dying?videoId=712140323&feedType=VideoRSS&feedName=TopNews&videoChannel=1",
+               "mediaURL":"https://vm.reuters.tv/dade7/30tz4tlale3-1404k.mp4"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"4RB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"REUTERS",
+               "title":"NY's early antibody tests finds 14% with coronavirus",
+               "link":"http://www.reuters.com/video/2020/04/23/nys-early-antibody-tests-finds-14-with-c?videoId=712138704&feedType=VideoRSS&feedName=TopNews&videoChannel=1",
+               "mediaURL":"https://vm.reuters.tv/9542c/sjoptbk31mb-1404k.mp4"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"5xB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"FOXNEWS",
+               "title":"Meghan Markle is willing to testify in privacy lawsuit over release of 'confidential' letter to father: report",
+               "link":"https://www.foxnews.com/entertainment/meghan-markle-willing-testify-privacy-lawsuit-father-thomas-markle-report",
+               "mediaURL":"https://static.foxnews.com/foxnews.com/content/uploads/2019/09/meghan-markle-father-thomas-markle-prince-harry.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"6xB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"FOXNEWS",
+               "title":"Mister Rogers told co-star Officer Clemmons to not come out as gay and to marry a woman",
+               "link":"https://www.foxnews.com/entertainment/mister-rogers-co-star-officer-clemons-gay-marry-woman",
+               "mediaURL":"https://static.foxnews.com/foxnews.com/content/uploads/2020/04/clemmons-rogers-getty.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"7BB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"FOXNEWS",
+               "title":"Connecticut town grounds drone program to fight coronavirus amid outcry",
+               "link":"https://www.foxnews.com/us/connecticut-town-grounds-drone-program-to-fight-coronavirus-amid-outcry",
+               "mediaURL":"https://static.foxnews.com/foxnews.com/content/uploads/2020/04/Westport-Police-Car-FACEBOOK.jpg"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"7RB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"CNBC",
+               "title":"Trump pulls punches and clings to his China trade deal as backlash against Beijing grows",
+               "link":"https://www.cnbc.com/2020/04/24/coronavirus-trump-clings-to-china-trade-deal-as-beijing-backlash-grows.html",
+               "mediaURL":"null"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"7hB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"CNBC",
+               "title":"'Scary,' 'visceral,' 'unprecedented': Traders describe oil's wild week and fall to negative prices",
+               "link":"https://www.cnbc.com/2020/04/25/scary-visceral-unprecedented-traders-describe-oils-wild-week-and-fall-to-negative-prices.html",
+               "mediaURL":"null"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"8BB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"CNBC",
+               "title":"Coronavirus live updates: Beaches reopen around the US, NY Gov. Cuomo says state has seen '21 days of hell'",
+               "link":"https://www.cnbc.com/2020/04/25/coronavirus-live-updates.html",
+               "mediaURL":"null"
+            }
+         },
+         {
+            "_index":"news",
+            "_type":"items",
+            "_id":"8RB0snEBUm7XgbM2Kt-R",
+            "_score":4.958358,
+            "_source":{
+               "category":"Top Stories",
+               "source":"CNBC",
+               "title":"Brazil's Embraer says Boeing 'wrongfully terminated' deal for $4 billion tie-up",
+               "link":"https://www.cnbc.com/2020/04/25/boeing-terminates-joint-venture-agreement-with-brazils-embraer.html",
+               "mediaURL":"null"
+            }
+         }
+      ]
+   }
+}
