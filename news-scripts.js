@@ -20,7 +20,7 @@ function fetch(term) {
 
   var request = new XMLHttpRequest();
   request.withCredentials = true;
-  request.open('GET', 'https://x9lx3yf7sr:h3yas5ptyy@newsobotics-4731548659.us-east-1.bonsaisearch.net:443/news/_search?q=predicts may might prediction will future&from=0&size=300', true);
+  request.open('GET', 'https://x9lx3yf7sr:h3yas5ptyy@newsobotics-4731548659.us-east-1.bonsaisearch.net:443/news/_search?q='+ term + '&from=0&size=300', true);
   request.onload = function () {
 
     // Begin accessing JSON data here
