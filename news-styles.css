@@ -3,6 +3,7 @@ body{
   overflow-y: scroll;
   overflow-x: hidden;
   -webkit-overflow-scrolling: touch;
+  width: 100%;
 }
 .news-item {
   border-bottom: 1px solid #C0C0C0;
