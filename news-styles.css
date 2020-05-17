@@ -1,6 +1,7 @@
-body{
+body, html{
   font-family: 'Verdana';font-size: 100%;
-  min-width: fit-content;
+  margin:0;
+  padding:0;
 }
 .news-item {
   border-bottom: 1px solid #C0C0C0;
