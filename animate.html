@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<canvas id="myCanvas" width="800" height="700" style="border:1px solid #d3d3d3;">
+Your browser does not support the HTML5 canvas tag.</canvas>
+
+<script>
+var x = 10;
+var y = 10;
+var img = new Image();
+img.src = "img_the_scream.jpg";
+window.requestAnimationFrame(animate);
+
+function animate() {
+  var c = document.getElementById("myCanvas");
+  var ctx = c.getContext("2d");
+  ctx.clearRect(0, 0, 800, 700);
+  //for(var count = 1; count < 40; count++) {
+    ctx.beginPath();
+    //ctx.arc(x, y, 10, 0, 360);
+    ctx.drawImage(img, x, y);
+    ctx.stroke();
+    x += 10;
+    if(x > 800) {
+      x = 10;
+    }
+    y +=10;
+    if(y > 700) {
+      y = 10;
+    }
+  //}
+
+  window.requestAnimationFrame(animate);
+}
+</script> 
+
+</body>
+</html>
