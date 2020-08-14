@@ -1,39 +1,39 @@
-<!DOCTYPE html>
-<html>
-<body>
 
-<canvas id="myCanvas" width="800" height="700" style="border:1px solid #d3d3d3;">
+<canvas id="myCanvas" width="1400" height="900" style="border:1px solid #d3d3d3;">
 Your browser does not support the HTML5 canvas tag.</canvas>
 
 <script>
 var x = 10;
-var y = 10;
+var y = 100;
+var width = 1400;
+var height = 900;
+
 var img = new Image();
-img.src = "img_the_scream.jpg";
+img.src = "https://thumbs.dreamstime.com/b/cute-mouse-ice-skating-cartoon-illustration-pattern-white-background-106641038.jpg";
 window.requestAnimationFrame(animate);
 
 function animate() {
   var c = document.getElementById("myCanvas");
   var ctx = c.getContext("2d");
-  ctx.clearRect(0, 0, 800, 700);
+  ctx.clearRect(0, 0, width, height);
   //for(var count = 1; count < 40; count++) {
     ctx.beginPath();
     //ctx.arc(x, y, 10, 0, 360);
-    ctx.drawImage(img, x, y);
+    ctx.drawImage(img, x, y, 200, 200);
     ctx.stroke();
     x += 10;
-    if(x > 800) {
+    if(x > width) {
       x = 10;
     }
-    y +=10;
-    if(y > 700) {
-      y = 10;
-    }
+    //y +=10;
+    //if(y > height) {
+    //  y = 10;
+    //}
   //}
 
   window.requestAnimationFrame(animate);
 }
-</script> 
+</script>
 
 </body>
 </html>
