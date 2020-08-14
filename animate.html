@@ -3,10 +3,10 @@
 Your browser does not support the HTML5 canvas tag.</canvas>
 
 <script>
-var x = 10;
-var y = 100;
 var width = 1400;
 var height = 900;
+var x = width;
+var y = 100;
 
 var img = new Image();
 img.src = "https://thumbs.dreamstime.com/b/cute-mouse-ice-skating-cartoon-illustration-pattern-white-background-106641038.jpg";
@@ -21,9 +21,9 @@ function animate() {
     //ctx.arc(x, y, 10, 0, 360);
     ctx.drawImage(img, x, y, 200, 200);
     ctx.stroke();
-    x += 10;
-    if(x > width) {
-      x = 10;
+    x -= 10;
+    if(x < 10) {
+      x = width;
     }
     //y +=10;
     //if(y > height) {
