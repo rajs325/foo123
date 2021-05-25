@@ -8,10 +8,6 @@
   <h1>Xumo Playlist Example</h1>
   <div id="main"></div>
 
-  <div>Please copy and paste these URLs, in the text box below and press the load button, then press play to view the video</div>
-  
-  <script src="xumo-index.js"></script>
-
    <video id=example-video width=700 height=400 class="video-js vjs-default-skin" controls>
       <source src="https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8" type="">
     </video>
@@ -46,12 +42,52 @@
       -- Now, initialize your player. That's it!
       -->
     <script>
+        const URL = "https://raw.githubusercontent.com/rajs325/foo123/master/xumo-playlist.json";
+        const main = document.getElementById("main");
+        main.innerHTML = "<p>Loading...";
+
+        const pitems = new Array();
+        const pindex = 0;
+        const fetchPromise = fetch(URL);
+        fetchPromise.then(response => {
+          return response.json();
+        }).then(playlist => {
+          //console.log(playlist.entries());
+          main.innerHTML = "";
+          playlist.forEach(myFunction);
+
+        });
+
+        function myFunction(item, index) {
+          //document.getElementById("main").innerHTML += index + ":" + item + "<br>";
+          console.log(index, item.title, item.url);
+          main.innerHTML += item.url + "<br/>";
+          pitems[index] = item.url;
+        }
+        //main.innerHTML = playlist.map(item =>`${item.url}`);
+
+        //fetch(URL)
+        //  .then((response) => response.json())
+        //  .then((playlist) => main.innerHTML = getListOfNames(playlist));
+
+        //const getListOfNames = (playlist) => {
+        //  const items = playlist.map((item) => `<div id="item">${item.url}</div>`).join("\n");
+        //  playlist.map((item) =>`${item.url}`);
+        //  return `<div id="items">${items}</div>`;
+        //};
+
       (function(window, videojs) {
+   
         var player = window.player = videojs('example-video');
 
         // hook up the video switcher
         var loadUrl = document.getElementById('load-url');
         var url = document.getElementById('url');
+        //var url = pitems[pindex];
+        //var url = playlist[itemIndex++].url;
+        console.log(fetchPromise);
+        console.log(pitems);
+        console.log(pitems[0]);
         loadUrl.addEventListener('submit', function(event) {
           event.preventDefault();
           var mtype = "application/x-mpegURL";
@@ -68,9 +104,4 @@
     </script>
 
 </body>
-</html>
-
-<html>
-  <body>
-  </body>
 </html>
