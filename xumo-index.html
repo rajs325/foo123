@@ -8,7 +8,8 @@
   <h1>Xumo Playlist Example</h1>
   <div id="main"></div>
 
-   <video id=example-video width=700 height=400 class="video-js vjs-default-skin" controls>
+   <div>Please press load to start autoplay of all three video files listed above..</div>
+    <video autoplay id=example-video width=700 height=400 class="video-js vjs-default-skin" controls>
       <source src="https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8" type="">
     </video>
 
@@ -47,7 +48,6 @@
         main.innerHTML = "<p>Loading...";
 
         const pitems = new Array();
-        const pindex = 0;
         const fetchPromise = fetch(URL);
         fetchPromise.then(response => {
           return response.json();
@@ -61,7 +61,7 @@
         function myFunction(item, index) {
           //document.getElementById("main").innerHTML += index + ":" + item + "<br>";
           console.log(index, item.title, item.url);
-          main.innerHTML += item.url + "<br/>";
+          main.innerHTML += "<div id=\"item" + index + "\">" + item.url + "</div>";
           pitems[index] = item.url;
         }
         //main.innerHTML = playlist.map(item =>`${item.url}`);
@@ -79,23 +79,43 @@
       (function(window, videojs) {
    
         var player = window.player = videojs('example-video');
+        var pindex = 0;
 
         // hook up the video switcher
         var loadUrl = document.getElementById('load-url');
-        var url = document.getElementById('url');
+        //var url = document.getElementById('url');
         //var url = pitems[pindex];
         //var url = playlist[itemIndex++].url;
-        console.log(fetchPromise);
-        console.log(pitems);
-        console.log(pitems[0]);
+        //console.log(fetchPromise);
+        //console.log(pitems);
+        //console.log(pitems[0]);
+        player.on("ended", function(){ 
+          console.log("video just ended..")
+          pindex++;
+          pindex = pindex % 3;
+          var url = document.getElementById('item'+pindex).textContent
+          var mtype = "application/x-mpegURL";
+          if(url.endsWith("mp4")) {
+            mtype = "video/mp4";
+          }
+          player.src({
+            src: url,
+            type: mtype
+          });
+        });
+
         loadUrl.addEventListener('submit', function(event) {
+          console.log(document.getElementById('item'+pindex).textContent);
+          var url = document.getElementById('item'+pindex).textContent
+          pindex++;
+          pindex = pindex % 3;
           event.preventDefault();
           var mtype = "application/x-mpegURL";
-          if(url.value.endsWith("mp4")) {
+          if(url.endsWith("mp4")) {
           	mtype = "video/mp4";
           }
           player.src({
-            src: url.value,
+            src: url,
             type: mtype
           });
           return false;
