@@ -14,10 +14,10 @@
     </video>
 
     <form id=load-url>
-      <label>
+      <!--<label>
         Video URL:
         <input id=url type=url value="https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8">
-      </label>
+      </label>-->
       <button type=submit>Load</button>
     </form>
 
@@ -47,7 +47,7 @@
         const main = document.getElementById("main");
         main.innerHTML = "<p>Loading...";
 
-        const pitems = new Array();
+        //const pitems = new Array();
         const fetchPromise = fetch(URL);
         fetchPromise.then(response => {
           return response.json();
@@ -62,7 +62,7 @@
           //document.getElementById("main").innerHTML += index + ":" + item + "<br>";
           console.log(index, item.title, item.url);
           main.innerHTML += "<div id=\"item" + index + "\">" + item.url + "</div>";
-          pitems[index] = item.url;
+          //pitems[index] = item.url;
         }
         //main.innerHTML = playlist.map(item =>`${item.url}`);
 
@@ -91,9 +91,9 @@
         //console.log(pitems[0]);
         player.on("ended", function(){ 
           console.log("video just ended..")
+          var url = document.getElementById('item'+pindex).textContent
           pindex++;
           pindex = pindex % 3;
-          var url = document.getElementById('item'+pindex).textContent
           var mtype = "application/x-mpegURL";
           if(url.endsWith("mp4")) {
             mtype = "video/mp4";
