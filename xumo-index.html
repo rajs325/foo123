@@ -52,9 +52,10 @@
         fetchPromise.then(response => {
           return response.json();
         }).then(playlist => {
-          //console.log(playlist.entries());
-          main.innerHTML = "";
+          console.log(playlist);
+          main.innerHTML = "<div id=\"items\">" + playlist.length + "</div>";
           playlist.forEach(myFunction);
+          main.innerHTML += "</div>";
 
         });
 
@@ -92,8 +93,9 @@
         player.on("ended", function(){ 
           console.log("video just ended..")
           var url = document.getElementById('item'+pindex).textContent
+          var limit = document.getElementById('items').textContent;
           pindex++;
-          pindex = pindex % 3;
+          pindex = pindex % limit;
           var mtype = "application/x-mpegURL";
           if(url.endsWith("mp4")) {
             mtype = "video/mp4";
@@ -105,10 +107,13 @@
         });
 
         loadUrl.addEventListener('submit', function(event) {
-          console.log(document.getElementById('item'+pindex).textContent);
           var url = document.getElementById('item'+pindex).textContent
+          console.log(url);
+          var limit = document.getElementById('items').textContent;
+          //var limit = 3;
+          console.log(limit);
           pindex++;
-          pindex = pindex % 3;
+          pindex = pindex % limit;
           event.preventDefault();
           var mtype = "application/x-mpegURL";
           if(url.endsWith("mp4")) {
