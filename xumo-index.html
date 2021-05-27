@@ -43,15 +43,19 @@
       -- Now, initialize your player. That's it!
       -->
     <script>
+      (function(window, videojs) {
+   
         const URL = "https://raw.githubusercontent.com/rajs325/foo123/master/xumo-playlist.json";
         const main = document.getElementById("main");
         main.innerHTML = "<p>Loading...";
 
         //const pitems = new Array();
         const fetchPromise = fetch(URL);
+        let pitems = new Array();
         fetchPromise.then(response => {
           return response.json();
         }).then(playlist => {
+          //pitems = playlist;
           console.log(playlist);
           main.innerHTML = "<div id=\"items\">" + playlist.length + "</div>";
           playlist.forEach(myFunction);
@@ -62,6 +66,7 @@
         function myFunction(item, index) {
           //document.getElementById("main").innerHTML += index + ":" + item + "<br>";
           console.log(index, item.title, item.url);
+          pitems[index] = item;
           main.innerHTML += "<div id=\"item" + index + "\">" + item.url + "</div>";
           //pitems[index] = item.url;
         }
@@ -77,8 +82,6 @@
         //  return `<div id="items">${items}</div>`;
         //};
 
-      (function(window, videojs) {
-   
         var player = window.player = videojs('example-video');
         var pindex = 0;
 
@@ -92,8 +95,10 @@
         //console.log(pitems[0]);
         player.on("ended", function(){ 
           console.log("video just ended..")
-          var url = document.getElementById('item'+pindex).textContent
-          var limit = document.getElementById('items').textContent;
+          //var url = document.getElementById('item'+pindex).textContent
+          var url = pitems[pindex].url;
+          //var limit = document.getElementById('items').textContent;
+          var limit = pitems.length;
           pindex++;
           pindex = pindex % limit;
           var mtype = "application/x-mpegURL";
@@ -107,10 +112,13 @@
         });
 
         loadUrl.addEventListener('submit', function(event) {
-          var url = document.getElementById('item'+pindex).textContent
+          console.log(pitems[pindex].url);
+          //var url = document.getElementById('item'+pindex).textContent
+          var url = pitems[pindex].url;
           console.log(url);
-          var limit = document.getElementById('items').textContent;
+          //var limit = document.getElementById('items').textContent;
           //var limit = 3;
+          var limit = pitems.length;
           console.log(limit);
           pindex++;
           pindex = pindex % limit;
