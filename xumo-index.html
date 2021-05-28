@@ -8,7 +8,7 @@
   <h1>Xumo Playlist Example</h1>
   <div id="main"></div>
 
-   <div>Please press load to start autoplay of all three video files listed above..</div>
+   <div>Please press load to start autoplay of all of the video files listed above..</div>
     <video autoplay id=example-video width=700 height=400 class="video-js vjs-default-skin" controls>
       <source src="https://bitdash-a.akamaihd.net/content/MI201109210084_1/m3u8s/f08e80da-bf1d-4e3d-8899-f0f6155f6efa.m3u8" type="">
     </video>
@@ -57,50 +57,40 @@
         }).then(playlist => {
           //pitems = playlist;
           console.log(playlist);
-          main.innerHTML = "<div id=\"items\">" + playlist.length + "</div>";
-          playlist.forEach(myFunction);
-          main.innerHTML += "</div>";
-
+          main.innerHTML = "";
+          playlist.forEach(handleResponse);
+          main.innerHTML += "<div id=\"items\">total count: " + playlist.length + "</div>";
         });
 
-        function myFunction(item, index) {
-          //document.getElementById("main").innerHTML += index + ":" + item + "<br>";
+        function handleResponse(item, index) {
           console.log(index, item.title, item.url);
           pitems[index] = item;
           main.innerHTML += "<div id=\"item" + index + "\">" + item.url + "</div>";
-          //pitems[index] = item.url;
         }
-        //main.innerHTML = playlist.map(item =>`${item.url}`);
-
-        //fetch(URL)
-        //  .then((response) => response.json())
-        //  .then((playlist) => main.innerHTML = getListOfNames(playlist));
-
-        //const getListOfNames = (playlist) => {
-        //  const items = playlist.map((item) => `<div id="item">${item.url}</div>`).join("\n");
-        //  playlist.map((item) =>`${item.url}`);
-        //  return `<div id="items">${items}</div>`;
-        //};
 
         var player = window.player = videojs('example-video');
         var pindex = 0;
 
         // hook up the video switcher
         var loadUrl = document.getElementById('load-url');
-        //var url = document.getElementById('url');
-        //var url = pitems[pindex];
-        //var url = playlist[itemIndex++].url;
-        //console.log(fetchPromise);
-        //console.log(pitems);
-        //console.log(pitems[0]);
         player.on("ended", function(){ 
           console.log("video just ended..")
-          //var url = document.getElementById('item'+pindex).textContent
+          nextAsset();
+        });
+
+        loadUrl.addEventListener('submit', function(event) {
+          nextAsset();
+          return false;
+        });
+        function nextAsset() {
+          console.log(pitems[pindex].url);
           var url = pitems[pindex].url;
-          //var limit = document.getElementById('items').textContent;
+          console.log(url);
           var limit = pitems.length;
+          console.log(limit);
           pindex++;
           pindex = pindex % limit;
+          event.preventDefault();
           var mtype = "application/x-mpegURL";
           if(url.endsWith("mp4")) {
             mtype = "video/mp4";
@@ -109,30 +99,7 @@
             src: url,
             type: mtype
           });
-        });
-
-        loadUrl.addEventListener('submit', function(event) {
-          console.log(pitems[pindex].url);
-          //var url = document.getElementById('item'+pindex).textContent
-          var url = pitems[pindex].url;
-          console.log(url);
-          //var limit = document.getElementById('items').textContent;
-          //var limit = 3;
-          var limit = pitems.length;
-          console.log(limit);
-          pindex++;
-          pindex = pindex % limit;
-          event.preventDefault();
-          var mtype = "application/x-mpegURL";
-          if(url.endsWith("mp4")) {
-          	mtype = "video/mp4";
-          }
-          player.src({
-            src: url,
-            type: mtype
-          });
-          return false;
-        });
+        }
       }(window, window.videojs));
     </script>
 
