@@ -9,20 +9,20 @@ public class DrawTest {
     static DrawControls controls;
 
     public static void main(String args[]) {
-      Frame f = new Frame("DrawTest");
-      DrawPanel panel = new DrawPanel();
-      DrawControls controls = new DrawControls(panel);
-      f.add("Center", panel);
-      f.add("South", controls);
-      f.setSize(300, 300);
-      f.setVisible(true);
-      f.addWindowListener(new WindowAdapter() {
-        @Override
-        public void windowClosing(WindowEvent e) {
-          System.out.println(panel.getShapes());
-          System.exit(0);
-        }
-      });
+        Frame f = new Frame("DrawTest");
+        DrawPanel panel = new DrawPanel();
+        DrawControls controls = new DrawControls(panel);
+        f.add("Center", panel);
+        f.add("South", controls);
+        f.setSize(300, 300);
+        f.setVisible(true);
+        f.addWindowListener(new WindowAdapter() {
+            @Override
+            public void windowClosing(WindowEvent e) {
+                System.out.println(panel.getShapes());
+                System.exit(0);
+            }
+        });
     }
 }
 
@@ -39,7 +39,7 @@ abstract class Shape {
         this.x1 = x1;
         this.y1 = y1;
         this.x2 = x2;
-        this.y2 = y2;        
+        this.y2 = y2;
     }
     Color getColor() {
         return c;
@@ -77,14 +77,14 @@ class Rectangle extends Shape {
         g.setColor(getColor());
         int width = x2 - x1;
         int height = y2 - y1;
-        if(getFill() == true) {
+        if (getFill() == true) {
             g.fillRect(x1, y1, width, height);
         } else {
-            g.drawRect(x1, y1, width, height);            
+            g.drawRect(x1, y1, width, height);
         }
     }
     public String toString() {
-        return "[Rectangle:" + x1 + "," + y1 + "," + x2 + "," + y2 + "," + getFill() + "];"; 
+        return "[Rectangle:" + x1 + "," + y1 + "," + x2 + "," + y2 + "," + getFill() + "];";
     }
 }
 class Oval extends Shape {
@@ -98,24 +98,24 @@ class Oval extends Shape {
         g.setColor(getColor());
         int width = x2 - x1;
         int height = y2 - y1;
-        if(getFill() == true) {
+        if (getFill() == true) {
             g.fillOval(x1, y1, width, height);
         } else {
             g.drawOval(x1, y1, width, height);
         }
     }
     public String toString() {
-        return "[Oval:" + x1 + "," + y1 + "," + x2 + "," + y2 + "," + getFill() + "];"; 
+        return "[Oval:" + x1 + "," + y1 + "," + x2 + "," + y2 + "," + getFill() + "];";
     }
 }
 
 class DrawPanel extends Panel implements MouseListener, MouseMotionListener {
-    public static final int LINES  = 0;
-    public static final int RECTS  = 1;
-    public static final int OVALS  = 2;
+    public static final int LINES = 0;
+    public static final int RECTS = 1;
+    public static final int OVALS = 2;
     int mode = LINES;
     boolean fill = false;
-    ArrayList<Shape> shapes = new ArrayList<Shape>();
+    ArrayList < Shape > shapes = new ArrayList < Shape > ();
 
     //Vector colors = new Vector();
     //Vector shapes = new Vector();
@@ -126,9 +126,9 @@ class DrawPanel extends Panel implements MouseListener, MouseMotionListener {
     Shape shape;
 
     public DrawPanel() {
-	  setBackground(Color.white);
-	  addMouseMotionListener(this);
-	  addMouseListener(this);
+        setBackground(Color.white);
+        addMouseMotionListener(this);
+        addMouseListener(this);
     }
 
     public void setDrawMode(int mode) {
@@ -159,14 +159,14 @@ class DrawPanel extends Panel implements MouseListener, MouseMotionListener {
         System.out.println("mousePressed:" + e.toString());
         System.out.println("" + x1 + "," + y1);
         shape = null;
-        if(mode == LINES) {
+        if (mode == LINES) {
             shape = new Line(x1, y1, x2, y2);
-        } else if(mode == RECTS) {
+        } else if (mode == RECTS) {
             shape = new Rectangle(x1, y1, x2, y2);
-        } else if(mode == OVALS) {
+        } else if (mode == OVALS) {
             shape = new Oval(x1, y1, x2, y2);
         }
-        
+
         shape.setColor(getForeground());
         shape.setFill(fill);
     }
@@ -196,16 +196,16 @@ class DrawPanel extends Panel implements MouseListener, MouseMotionListener {
 
     public void paint(Graphics g) {
         //current shape
-        if(shape != null) {
+        if (shape != null) {
             shape.draw(g);
         }
 
         //previously finalized shapes
-        for(Shape s : shapes) {
+        for (Shape s: shapes) {
             s.draw(g);
         }
     }
-    public java.util.List<Shape> getShapes() {
+    public java.util.List < Shape > getShapes() {
         return shapes;
     }
 }
@@ -218,73 +218,69 @@ class DrawControls extends Panel implements ItemListener {
     Choice filler;
 
     public DrawControls(DrawPanel target) {
-	this.target = target;
-	setLayout(new FlowLayout());
-	setBackground(Color.lightGray);
-	target.setForeground(Color.red);
+        this.target = target;
+        setLayout(new FlowLayout());
+        setBackground(Color.lightGray);
+        target.setForeground(Color.red);
 
-	colors = new Choice();
-    colors.addItemListener(this);
-    colors.addItem("Red");
-    colors.addItem("Blue");
-    colors.addItem("Green");
-    colors.addItem("Black");
-    colors.addItem("Orange");
-    colors.setBackground(Color.lightGray);
-    add(colors);
+        colors = new Choice();
+        colors.addItemListener(this);
+        colors.addItem("Red");
+        colors.addItem("Blue");
+        colors.addItem("Green");
+        colors.addItem("Black");
+        colors.addItem("Orange");
+        colors.setBackground(Color.lightGray);
+        add(colors);
 
-    shapes = new Choice();
-	shapes.addItemListener(this);
-    shapes.addItem("Line");
-	shapes.addItem("Rectangle");
-    shapes.addItem("Oval");
-	shapes.setBackground(Color.lightGray);
-	add(shapes);
+        shapes = new Choice();
+        shapes.addItemListener(this);
+        shapes.addItem("Line");
+        shapes.addItem("Rectangle");
+        shapes.addItem("Oval");
+        shapes.setBackground(Color.lightGray);
+        add(shapes);
 
-    filler = new Choice();
-    filler.addItemListener(this);
-    filler.addItem("Outline");
-    filler.addItem("Fill");
-    filler.setBackground(Color.lightGray);
-    add(filler);
+        filler = new Choice();
+        filler.addItemListener(this);
+        filler.addItem("Outline");
+        filler.addItem("Fill");
+        filler.setBackground(Color.lightGray);
+        add(filler);
     }
 
-  public void itemStateChanged(ItemEvent e) {
-    Component source = (Component)e.getSource();
+    public void itemStateChanged(ItemEvent e) {
+        Component source = (Component) e.getSource();
 
-      if (source == colors) {
-        String color = (String) e.getItem();
-        if (color.equals("Red")) {
-          target.setForeground(Color.red);
-        } else if (color.equals("Blue")) {
-          target.setForeground(Color.blue);
-        } else if (color.equals("Green")) {
-          target.setForeground(Color.green);
-        } else if (color.equals("Black")) {
-          target.setForeground(Color.black);
-        } else if (color.equals("Orange")) {
-          target.setForeground(Color.orange);
+        if (source == colors) {
+            String color = (String) e.getItem();
+            if (color.equals("Red")) {
+                target.setForeground(Color.red);
+            } else if (color.equals("Blue")) {
+                target.setForeground(Color.blue);
+            } else if (color.equals("Green")) {
+                target.setForeground(Color.green);
+            } else if (color.equals("Black")) {
+                target.setForeground(Color.black);
+            } else if (color.equals("Orange")) {
+                target.setForeground(Color.orange);
+            }
+        } else if (source == shapes) {
+            String choice = (String) e.getItem();
+            if (choice.equals("Line")) {
+                target.setDrawMode(DrawPanel.LINES);
+            } else if (choice.equals("Rectangle")) {
+                target.setDrawMode(DrawPanel.RECTS);
+            } else if (choice.equals("Oval")) {
+                target.setDrawMode(DrawPanel.OVALS);
+            }
+        } else if (source == filler) {
+            String filler = (String) e.getItem();
+            if (filler.equals("Fill")) {
+                target.setFiller(true);
+            } else {
+                target.setFiller(false);
+            }
         }
-      } else if (source == shapes) {
-        String choice = (String) e.getItem();
-        if (choice.equals("Line")) {
-          target.setDrawMode(DrawPanel.LINES);
-        } else if (choice.equals("Rectangle")) {
-          target.setDrawMode(DrawPanel.RECTS);
-        } else if (choice.equals("Oval")) {
-          target.setDrawMode(DrawPanel.OVALS);
-        }
-      } else if (source == filler) {
-        String filler = (String) e.getItem();
-        if (filler.equals("Fill")) {
-            target.setFiller(true);
-        } else {
-            target.setFiller(false);            
-        }
-      }
     }
 }
-
-
-
-
